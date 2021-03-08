@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/colorWhite"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <Spinner
+        android:id="@+id/kategori_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="35sp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="@color/colorPrimary"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:scrollbars="vertical"
+        android:layout_weight="1"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="@color/colorPrimary"
+        />
+    <LinearLayout
+        android:id="@+id/cartDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/totalPembayaran"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rp. 0"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/totalProduk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0 Produk (0 Item)" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonCheckout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingRight="30dp"
+            android:paddingLeft="30dp"
+            android:layout_marginRight="20sp"
+            android:background="@drawable/button_cyrcle_accent"
+            android:text="Lihat Keranjang"
+            android:textSize="11sp"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+</LinearLayout>

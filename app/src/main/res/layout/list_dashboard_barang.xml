@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       >
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="item1"
+           android:layout_weight="4"
+           android:gravity="center_horizontal"
+           android:background="@drawable/custom_border_gray"
+           android:padding="4sp"
+           android:id="@+id/namaBarang"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="item1"
+           android:layout_weight="5"
+           android:gravity="center_horizontal"
+           android:background="@drawable/custom_border_gray"
+           android:padding="4sp"
+           android:id="@+id/jumlah"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="item1"
+           android:layout_weight="4.5"
+           android:gravity="center_horizontal"
+           android:background="@drawable/custom_border_gray"
+           android:padding="4sp"
+           android:id="@+id/nilai"
+           />
+   </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="76dp"
+        android:background="@color/colorBorder"/>
+
+</LinearLayout>

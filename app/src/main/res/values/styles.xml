@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" >
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MonthPickerDialogStyle" >
+        <item name="monthBgColor">@color/colorAccent</item>
+        <item name="monthBgSelectedColor">@color/colorAccent</item>
+        <item name="monthFontColorSelected">@color/colorAccent</item>
+        <item name="monthFontColorNormal">@color/colorAccent</item>
+        <item name="monthFontColorDisabled">@color/colorAccent</item>
+
+        <item name="headerBgColor">@color/colorAccent</item>
+        <item name="headerFontColorSelected">#fff</item>
+        <item name="headerFontColorNormal">#85FFFFFF</item>
+        <item name="headerTitleColor">#fff</item>
+
+        <item name="dialogActionButtonColor">@color/colorAccent</item>
+    </style>
+</resources>

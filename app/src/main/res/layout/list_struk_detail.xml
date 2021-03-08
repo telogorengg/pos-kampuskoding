@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/margin_card"
+        android:paddingLeft="12dp"
+        android:paddingBottom="@dimen/margin_card"
+        android:paddingRight="@dimen/margin_card">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/img_produk"
+            android:orientation="vertical"
+            android:layout_margin="10sp"
+            >
+
+            <TextView
+                android:id="@+id/nama_barang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bango kecap reff 600"
+                android:textSize="@dimen/text_judul"
+                android:textColor="@color/colorTitle"
+                android:layout_marginBottom="2sp"
+                />
+
+            <TextView
+                android:id="@+id/jumlah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bango kecap reff 600"
+                android:textSize="@dimen/text_sub"
+                android:textColor="@color/colorSubTitle"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="#INV-23"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/colorBorder"/>
+
+</LinearLayout>

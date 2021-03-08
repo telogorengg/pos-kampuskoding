@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/margin_card"
+        android:paddingLeft="12dp"
+        android:paddingBottom="@dimen/margin_card"
+        android:paddingRight="@dimen/margin_card">
+
+        <ImageView
+            android:id="@+id/img_produk"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginRight="@dimen/margin_card"
+            android:scaleType="fitXY"
+            android:background="@color/mediumPurple" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/img_produk"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_nama_kategori"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bango kecap reff 600"
+                android:textSize="@dimen/text_judul"
+                android:textAllCaps="true"
+                android:textColor="@color/colorTitle"/>
+
+            <TextView
+                android:id="@+id/tv_jumlah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bango kecap reff 600"
+                android:textSize="@dimen/text_sub"
+                android:textColor="@color/colorSubTitle"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="76dp"
+        android:background="@color/colorBorder"/>
+
+</LinearLayout>

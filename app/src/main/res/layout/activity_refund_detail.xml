@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorWhite"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/refundLayout"
+    >
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:scrollbars="vertical"
+        android:layout_weight="1"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/process"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            android:layout_margin="25sp"
+
+            >
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/colorBorder"
+                android:layout_marginBottom="10sp"
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10sp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total Refund"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorWhite"
+
+                    />
+                <TextView
+                    android:id="@+id/totalRefund"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:layout_alignParentRight="true"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorWhite"
+
+                    />
+            </RelativeLayout>
+
+            <!--<RelativeLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:layout_marginBottom="10sp"-->
+                <!--&gt;-->
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Tunai"-->
+                    <!--android:textColor="@color/colorWhite"-->
+                    <!--/>-->
+                <!--<TextView-->
+                    <!--android:id="@+id/tunai"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="0"-->
+                    <!--android:layout_alignParentRight="true"-->
+                    <!--android:textColor="@color/colorWhite"-->
+
+                    <!--/>-->
+            <!--</RelativeLayout>-->
+
+            <!--<RelativeLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal"-->
+                <!--&gt;-->
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Kembalian"-->
+                    <!--android:textColor="@color/colorWhite"-->
+                    <!--/>-->
+                <!--<TextView-->
+                    <!--android:id="@+id/kembalian"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="0"-->
+                    <!--android:layout_alignParentRight="true"-->
+                    <!--android:textColor="@color/colorWhite"-->
+
+                    <!--/>-->
+            <!--</RelativeLayout>-->
+
+        </LinearLayout>
+    </LinearLayout>
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@color/colorPrimary"-->
+        <!--android:layout_margin="20sp"-->
+        <!--&gt;-->
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Pengembalian Uang"-->
+            <!--android:gravity="center"-->
+            <!--android:padding="15sp"-->
+            <!--android:textSize="17sp"-->
+            <!--android:textColor="@color/white"-->
+            <!--/>-->
+    <!--</LinearLayout>-->
+</LinearLayout>

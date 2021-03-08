@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">POS MVP</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Point Of Sales MVP</string>
+    <string name="nav_header_subtitle">By Ujang Wahyu</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="permission_dialog">Accessing Location Permissions required</string>
+    <string name="go_to_permissions_settings">Go to App settings and enable permissions</string>
+</resources>

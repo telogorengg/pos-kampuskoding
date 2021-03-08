@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_penjualan"
+            android:icon="@drawable/ic_shopping_basket_black_24dp"
+            android:title="Penjualan" />
+        <item
+            android:id="@+id/nav_struk_penjualan"
+            android:icon="@drawable/ic_local_mall_black_24dp"
+            android:title="Histori Transaksi" />
+        <item
+            android:id="@+id/nav_produk_kategori"
+            android:icon="@drawable/ic_receipt_black_24dp"
+            android:title="Manajemen Kategori" />
+        <item
+            android:id="@+id/nav_produk_item"
+            android:icon="@drawable/ic_list_black_24dp"
+            android:title="Manajemen Produk" />
+    </group>
+
+    <item android:title="Laporan">
+        <menu>
+            <item
+                android:id="@+id/nav_laporan_harian"
+                android:icon="@drawable/ic_insert_chart_black_24dp"
+                android:title="Laporan Penjualan" />
+        </menu>
+    </item>
+
+</menu>

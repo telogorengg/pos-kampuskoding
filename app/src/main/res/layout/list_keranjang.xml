@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/margin_card"
+        android:paddingLeft="12dp"
+        android:paddingBottom="@dimen/margin_card"
+        android:paddingRight="@dimen/margin_card"
+        android:layout_margin="10sp"
+        >
+
+        <LinearLayout
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/img_produk"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_nama_produk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bango kecap reff 600"
+                android:textSize="@dimen/text_judul"
+                android:textColor="@color/colorTitle"/>
+
+            <TextView
+                android:id="@+id/tv_harga_produk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bango kecap reff 600"
+                android:textSize="@dimen/text_sub"
+                android:layout_marginTop="5sp"
+                android:textColor="@color/colorSubTitle"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_min_qty"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:textColor="@color/colorWhite"
+                android:backgroundTint="@color/colorMinusButton"
+                android:text="-"/>
+
+            <TextView
+                android:id="@+id/tv_qty"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textAlignment="center"
+                android:text="1"/>
+
+            <Button
+                android:id="@+id/btn_add_qty"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:textColor="@color/colorWhite"
+                android:backgroundTint="@color/colorPlusButton"
+                android:text="+"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/colorBorder"/>
+
+</LinearLayout>
